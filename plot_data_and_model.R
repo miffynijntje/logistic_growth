@@ -1,6 +1,6 @@
 #Script to plot data and model
 
-growth_data <- read.csv("???")
+growth_data <- read.csv("experiment1.csv")
 
 logistic_fun <- function(t) {
   
@@ -10,13 +10,13 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- ??? #
+N0 <- 1044.722 #exp(intercept coefficient from model1) bc that is the N value when t~0
   
-r <- ??? #
+r <- 0.009902 #model1 => coefficient t 
   
-K <- ??? #
+K <- 5.993e+10 #model2 => estimate intercept bc that is when N stops changing
 
-ggplot(aes(???,???), data = growth_data) +
+ggplot(aes(t,N), data = growth_data) +
   
   geom_function(fun=logistic_fun, colour="red") +
   
