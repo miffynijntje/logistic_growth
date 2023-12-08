@@ -1,7 +1,12 @@
 #Script to estimate the model parameters using a linear approximation
+install.packages("dplyr")
 
 #library(dplyr)
+<<<<<<< HEAD
 
+=======
+library(dplyr)
+>>>>>>> 39c37c8d27880e01e59473476d0b381ae1758cf9
 growth_data <- read.csv("experiment1.csv")
 
 #Case 1. K >> N0, t is small
