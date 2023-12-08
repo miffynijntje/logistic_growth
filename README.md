@@ -22,5 +22,5 @@ The K for exponential growth is much larger for the same time period.
 
 Q3)
 - ![image](https://github.com/miffynijntje/logistic_growth/assets/150163921/8671fd7f-1828-411b-abf7-5543d0551cf1)
--  Q3_graph.R script. Link: https://github.com/miffynijntje/logistic_growth/blob/dev/Q3_graph.R
+-  Q3_graph.R script. Link: https://github.com/miffynijntje/logistic_growth/blob/main/Q3_graph.R
 
