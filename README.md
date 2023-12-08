@@ -16,11 +16,11 @@ The plotting data and model script contains code to plot both the growth data fr
 
 Q2)
 t =  4980
-When assuming exponential growth, we can use the formula N0*exp(r*t). K= 5.0538876e+24
-Under logistic growth, the formula is (N0*K*exp(r*t))/(K-N0+N0*exp(r*t)). K = 60000000000
+When assuming exponential growth, we can use the formula N0*exp(r*t). K= 5.0538876e+24.
+Under logistic growth, the formula is (N0*K*exp(r*t))/(K-N0+N0*exp(r*t)). K = 60000000000.
 The K for exponential growth is much larger for the same time period. 
 
 Q3)
 - ![image](https://github.com/miffynijntje/logistic_growth/assets/150163921/8671fd7f-1828-411b-abf7-5543d0551cf1)
--  Q3_graph.R script 
+-  Q3_graph.R script. Link: https://github.com/miffynijntje/logistic_growth/blob/dev/Q3_graph.R
 
